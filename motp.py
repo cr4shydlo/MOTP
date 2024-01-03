@@ -58,7 +58,7 @@ def generate_pin(selected_index, result_label):
     for widget in result_label.winfo_children():
         widget.destroy()
 
-    result_widget = tk.Label(result_label, text=f"Generated PIN for {name}: ", font=("Arial", 12))
+    result_widget = tk.Label(result_label, text=f"Generated PIN for {name}: ", font=("Arial", 11))
     result_widget.pack(side=tk.LEFT)
 
     result_widget_bold = tk.Label(result_label, text=f"{generated_code}", font=("Arial", 16, "bold"))
