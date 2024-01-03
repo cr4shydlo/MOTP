@@ -40,7 +40,7 @@ def add_account(selected_option):
     save_account(name, code, timezone)
     messagebox.showinfo("Success", "The account has been added.")
 
-    # Reload the list of accounts
+    #Reload the list of accounts
     load_and_reload_options(selected_option)
 
 def generate_pin(selected_index, result_label):
